@@ -1,0 +1,22 @@
+{
+  "name": "web-scrapper-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/scraper"
+  },
+  "keywords": [],
+  "author": "Bernardo Alves - Boyce22",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.1",
+    "bunyan": "^1.8.15",
+    "inquirer": "^12.10.0",
+    "p-limit": "^7.2.0",
+    "puppeteer": "^24.28.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
